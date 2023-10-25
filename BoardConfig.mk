@@ -5,7 +5,7 @@
 # Copyright (C) 2022-juic3b0x
 #
 
-DEVICE_PATH := device/motorola/denver
+DEVICE_PATH := device/motorola/osaka
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -33,7 +33,7 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_USES_UEFI := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := denver
+TARGET_OTA_ASSERT_DEVICE := osaka
 
 # Build Error Bypass Fix
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
