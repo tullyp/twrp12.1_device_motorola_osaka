@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_denver.mk
+     $(LOCAL_DIR)/twrp_osaka.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_denver-eng
+    twrp_osaka-eng
