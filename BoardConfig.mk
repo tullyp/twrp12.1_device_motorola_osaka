@@ -89,8 +89,8 @@ BOARD_KERNEL_CMDLINE += buildvariant=eng
 KERNEL_LD := LLVM=1
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CONFIG := denver_defconfig
-TARGET_KERNEL_SOURCE := kernel/motorola/denver
+TARGET_KERNEL_CONFIG := osaka_defconfig
+TARGET_KERNEL_SOURCE := kernel/motorola/osaka
 NEED_KERNEL_MODULE_RECOVERY := true
 
 # Metadata
