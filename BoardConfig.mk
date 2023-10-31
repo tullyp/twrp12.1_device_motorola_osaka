@@ -82,7 +82,7 @@ BOARD_KERNEL_CMDLINE += iptable_raw.raw_before_defrag=1
 BOARD_KERNEL_CMDLINE += ip6table_raw.raw_before_defrag=1
 BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware_mnt/image
 BOARD_KERNEL_CMDLINE += androidboot.hab.csv=9
-BOARD_KERNEL_CMDLINE += androidboot.hab.product=denver
+BOARD_KERNEL_CMDLINE += androidboot.hab.product=osaka
 BOARD_KERNEL_CMDLINE += androidboot.hab.cid=50
 BOARD_KERNEL_CMDLINE += buildvariant=eng
 
